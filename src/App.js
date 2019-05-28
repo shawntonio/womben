@@ -1,16 +1,16 @@
 import React from 'react';
 import {HashRouter} from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/header/Header';
 import routes from './routes';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <HashRouter>
       <div className="App">
         <Header />
-      </div>
+      </div> 
       {routes}
     </HashRouter>
   );

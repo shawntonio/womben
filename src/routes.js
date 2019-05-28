@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import Offerings from './components/offerings/Offerings';
 import About from './components/about/About';
 import Shop from './components/shop/Shop';
-import Events from './events/Events';
+import Events from './components/events/Events';
 
 export default (
 	<Switch>
