@@ -10,9 +10,9 @@ import Events from './events/Events';
 export default (
 	<Switch>
 		<Route exact path='/' component={Home} />
-		<Route path='/about' component={About} />
-		<Route path='/offerings' component={Offerings} />
-		<Route path='/shop' component={Shop} />
-		<Route path='/events' component={Events} />
+		<Route path='/main/about' component={About} />
+		<Route path='/main/offerings' component={Offerings} />
+		<Route path='/main/shop' component={Shop} />
+		<Route path='/main/events' component={Events} />
 	</Switch>
 )

@@ -1,6 +1,7 @@
 
-@import './components/header/header';
-@import './components/home/home';
+@import './components/main/header/header';
+@import './components/main/home/home';
+@import './components//main/offerings/offerings.scss';
 
 * {
 	margin: 0;

@@ -10,21 +10,20 @@ const Header = () => {
 					<Link className="link" to='/'>
 						<li>Home</li>
 					</Link>
-					<Link className="link" to='/about'>
+					<Link className="link" to='/main/about'>
 						<li>About</li>
 					</Link>
-					<Link className="link" to='/offerings'>
+					<Link className="link" to='/main/offerings'>
 						<li>Offerings</li>
 					</Link>
-					<Link className="link" to='/shop'>
+					<Link className="link" to='/main/shop'>
 						<li>Shop</li>
 					</Link>
-					<Link className="link" to='/events'>
+					<Link className="link" to='/main/events'>
 						<li>Events</li>
 					</Link>
-					<Link className="link">
+					
 						<li>Schedule Now</li>
-					</Link>
 				</ul>
 			</nav>
 			<hr/>

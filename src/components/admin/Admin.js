@@ -1,16 +1,16 @@
 import React from 'react';
-import { HashRouter, Link } from 'react-router-dom';
-import routes from './routes';
+import { Link } from 'react-router-dom';
+import routes from './routesAdmin';
 
 
 function Admin() {
 	return (
-		<HashRouter>
+		<div>
 			<div>
 				<Link to='/admin/offerings'>Offerings</Link>
       </div>
 			{routes}
-		</HashRouter>
+		</div>
 	);
 }
 

@@ -10,6 +10,7 @@ function App() {
     <HashRouter>
       <Switch>
         <Route exact path='/' component={Main} />
+        <Route path='/main' component={Main} />
         <Route path='/admin' component={Admin} />
       </Switch>
     </HashRouter>

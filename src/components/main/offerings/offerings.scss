@@ -1,0 +1,21 @@
+.offering {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 0px;
+	img {
+		height: 262.5px;
+		width: 350px;
+		margin: 15px;
+	}
+}
+
+.offering-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	max-width: 45%;
+	h2, span, p {
+		max-width: 100%;
+		
+	}
+}
