@@ -1,11 +1,11 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
-import Home from './components/home/Home';
-import Offerings from './components/offerings/Offerings';
-import About from './components/about/About';
-import Shop from './components/shop/Shop';
-import Events from './components/events/Events';
+import Home from './home/Home';
+import Offerings from './offerings/Offerings';
+import About from './about/About';
+import Shop from './shop/Shop';
+import Events from './events/Events';
 
 export default (
 	<Switch>
