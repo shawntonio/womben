@@ -10,8 +10,7 @@ function Offering(props) {
 			<div className="offering-info">
 				<h2>{props.title}</h2>
 				<span>${props.price}</span>
-				<p>{props.description} lakjsdfoiawej alwejfpoqiwejgpqoejpoawejpoaiw jegpoaejrgopqjabpoiqjerbojqeogjaoiejgoqie
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, velit maiores veritatis cumque a, est dicta modi fuga illo nihil tempore excepturi vitae debitis iste reiciendis magni voluptate neque incidunt?</p>
+				<p>{props.description}</p>
 			</div>
 		</div>
 	)

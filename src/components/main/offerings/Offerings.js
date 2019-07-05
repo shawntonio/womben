@@ -10,7 +10,6 @@ function Offerings() {
 		Axios.get('/api/offerings')
 		.then(res => {
 			setOfferings(res.data)
-			console.log(offerings)
 		})
 		.catch(console.log)
 	}, [])

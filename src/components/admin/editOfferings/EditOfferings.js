@@ -1,9 +1,12 @@
 import React from 'react';
+import Offerings from '../../main/offerings/Offerings';
 
 function EditOfferings() {
 
 	return (
-		<div>edit EditOfferings</div>
+		<div>
+			<Offerings />
+		</div>
 	)
 }
 

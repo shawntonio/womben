@@ -5,11 +5,14 @@ import routes from './routesAdmin';
 
 function Admin() {
 	return (
-		<div>
-			<div>
-				<Link to='/admin/offerings'>Offerings</Link>
+		<div className="admin">
+			<div className="edit-menu">
+				<Link className="link" to='/admin/offerings'><h2>Offerings</h2></Link>
+				<Link className="link" to='/admin/new-offering'><div>Add Offering</div></Link>
       </div>
-			{routes}
+			<div className="edit-page">
+				{routes}
+			</div>
 		</div>
 	);
 }
